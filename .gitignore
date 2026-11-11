@@ -1,0 +1,22 @@
+# Secrets — never commit
+.envrc
+.env
+.env*.local
+
+# Vercel / Supabase local state
+.vercel
+supabase/.temp
+supabase/.branches
+
+# Dependencies & build output
+node_modules
+.next
+dist
+build
+out
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
