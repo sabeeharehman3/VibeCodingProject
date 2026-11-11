@@ -20,3 +20,10 @@ out
 Thumbs.db
 .vscode/*
 !.vscode/extensions.json
+
+# Next.js extras
+*.tsbuildinfo
+next-env.d.ts
+*.pem
+coverage
+npm-debug.log*
